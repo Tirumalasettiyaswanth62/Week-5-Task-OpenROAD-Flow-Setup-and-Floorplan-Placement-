@@ -22,6 +22,8 @@ cmake -DBUILD_DEPS=ON -DCMAKE_BUILD_TYPE=Release ..
 
 5.sudo make install
 ```
+<img width="818" height="618" alt="Screenshot 2025-10-24 202242" src="https://github.com/user-attachments/assets/48d85518-d07f-4a9b-b434-d283ead7a218" />
+
 
 #### step2:
 ```
@@ -74,8 +76,21 @@ run this in build folder we make in step2
 2.sudo make install
 
 ```
+<img width="1281" height="801" alt="Screenshot 2025-10-24 214121" src="https://github.com/user-attachments/assets/0ced6b97-8831-4d06-b13a-68013f7d8321" />
+
 
 ### note : 
 make sure both the step1 AND step2 should done seperatly
+
+## Execution:
+```
+openroad -gui -log gcd_logfile.log gcd_nangate45.tcl
+```
+<img width="1257" height="801" alt="image" src="https://github.com/user-attachments/assets/e7006b5b-0f9f-4079-8e45-8693c7597134" />
+
+
+## Reminder:
+> i have problem with OpenROAD-Script file so i followed this procedure
+
 
 
