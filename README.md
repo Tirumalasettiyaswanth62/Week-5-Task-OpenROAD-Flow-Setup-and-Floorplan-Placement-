@@ -8,6 +8,8 @@ VSD RISC-V TAPEOUT PROGRAM WEEK-5 ASSIGNMENT
 git clone --recursive https://github.com/The-OpenROAD-Project/OpenROAD.git 
 ```
 ### Follow these steps :
+
+#### step1:
 ```
 1.git clone https://github.com/google/or-tools.git
 
@@ -20,9 +22,9 @@ cmake -DBUILD_DEPS=ON -DCMAKE_BUILD_TYPE=Release ..
 
 5.sudo make install
 ```
-```
 
 #### step2:
+```
 1.git clone this one https://github.com/The-OpenROAD-Project/OpenROAD.git
 
 2.cd OpenROAD/
@@ -33,17 +35,17 @@ cmake -DBUILD_DEPS=ON -DCMAKE_BUILD_TYPE=Release ..
 
 5.cd build
 ```
-```
 
 #### step3:
+```
 1.cd third-party
 
 2.git clone https://github.com/gabime/spdlog.git
 cd ..
 ```
-```
 
 #### step4:
+```
 1.sudo add-apt-repository
 
 2.ppa:ubuntu-toolchain-r/test -y
@@ -52,9 +54,9 @@ cd ..
 
 4.sudo apt install g++-9 -y
 ```
-```
 
-#### step5: 
+#### step5:
+```
 cmake .. -DCMAKE_BUILD_TYPE=Release
 #### if you occur any error ... follow the below commands
 -DCMAKE_CXX_FLAGS="-Wno-error"
@@ -65,9 +67,9 @@ cmake .. -DCMAKE_BUILD_TYPE=Release
 
 run this in build folder we make in step2
 ```
-```
 
 #### step6:
+```
 1.make -j$(nproc)
 2.sudo make install
 
