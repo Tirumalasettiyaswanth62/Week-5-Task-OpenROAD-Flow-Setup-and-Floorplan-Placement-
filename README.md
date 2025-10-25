@@ -19,6 +19,8 @@ cmake -DBUILD_DEPS=ON -DCMAKE_BUILD_TYPE=Release ..
 4.make -j$(nproc)
 
 5.sudo make install
+```
+```
 
 #### step2:
 1.git clone this one https://github.com/The-OpenROAD-Project/OpenROAD.git
@@ -30,12 +32,16 @@ cmake -DBUILD_DEPS=ON -DCMAKE_BUILD_TYPE=Release ..
 4.mkdir build
 
 5.cd build
+```
+```
 
 #### step3:
 1.cd third-party
 
 2.git clone https://github.com/gabime/spdlog.git
 cd ..
+```
+```
 
 #### step4:
 1.sudo add-apt-repository
@@ -45,6 +51,8 @@ cd ..
 3.sudo apt update
 
 4.sudo apt install g++-9 -y
+```
+```
 
 #### step5: 
 cmake .. -DCMAKE_BUILD_TYPE=Release
@@ -56,6 +64,8 @@ cmake .. -DCMAKE_BUILD_TYPE=Release
 -DCMAKE_CXX_COMPILER=/usr/bin/g++-9
 
 run this in build folder we make in step2
+```
+```
 
 #### step6:
 1.make -j$(nproc)
