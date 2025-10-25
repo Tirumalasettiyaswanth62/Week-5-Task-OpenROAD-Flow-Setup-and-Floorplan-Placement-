@@ -75,6 +75,7 @@ run this in build folder we make in step2
 
 ```
 
+### note : 
 make sure both the step1 AND step2 should done seperatly
 
 
